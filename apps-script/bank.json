@@ -1,0 +1,537 @@
+{
+  "classes": {
+    "2epc": {
+      "label": "2EPC · CAP",
+      "folder": "2EPC 2026-2027",
+      "subject": "Éco-gestion vente",
+      "suffix": "2epc",
+      "context": "magasin Hanout"
+    },
+    "1mcva": {
+      "label": "1MCVA · Bac Pro",
+      "folder": "1MCVA 2026-2027",
+      "subject": "Éco-gestion vente",
+      "suffix": "1mcva",
+      "context": "magasin"
+    },
+    "2pro": {
+      "label": "2nde Pro",
+      "folder": "2nde Pro 2026-2027",
+      "subject": "Éco-droit",
+      "suffix": "2pro",
+      "context": "entreprise"
+    },
+    "btsmos": {
+      "label": "BTS 1 MOS",
+      "folder": "BTS 1 MOS 2026-2027",
+      "subject": "Management des ressources humaines",
+      "suffix": "bts1mos",
+      "context": "entreprise de sécurité"
+    }
+  },
+  "mods": [
+    {
+      "id": "gmail",
+      "title": "Gmail : identité numérique",
+      "steps": [
+        "Vérifiez si vous disposez déjà d’un compte Google autorisé par votre établissement. Sinon, demandez la consigne de l’enseignant avant d’en créer un.",
+        "Si un compte personnel est autorisé et que vous êtes éligible, choisissez une adresse neutre avec le format proposé.",
+        "Ouvrez Gmail et identifiez boîte de réception, messages envoyés et nouveau message.",
+        "Envoyez à votre enseignant un message test avec un objet explicite (adresse communiquée en classe).",
+        "Revenez dans Gmail et retrouvez ce message dans les éléments envoyés."
+      ]
+    },
+    {
+      "id": "outils",
+      "title": "Découvrir les outils Google",
+      "steps": [
+        "Ouvrez Gmail ou Drive puis cherchez le menu des applications Google (neuf points).",
+        "Identifiez Docs, Sheets, Slides, Forms et Agenda.",
+        "Associez à voix haute chacun à une tâche concrète de votre scolarité ou d’une entreprise.",
+        "Ouvrez deux outils différents dans des onglets puis revenez à Workspace Quest."
+      ]
+    },
+    {
+      "id": "drive",
+      "title": "Drive : organiser ses dossiers",
+      "steps": [
+        "Ouvrez Google Drive.",
+        "Créez un dossier nommé exactement « {folder} ».",
+        "Ouvrez-le et créez un sous-dossier « {subject} ».",
+        "Dans le sous-dossier, créez un dossier « Ressources de cours ».",
+        "Retrouvez votre dossier annuel en utilisant la barre de recherche Google Drive."
+      ]
+    },
+    {
+      "id": "partage",
+      "title": "Partager et collaborer",
+      "steps": [
+        "Choisissez un document de travail non confidentiel.",
+        "Cliquez sur « Partager » et observez les trois rôles disponibles.",
+        "Invitez l’adresse pédagogique fournie par votre enseignant en mode « Lecteur ».",
+        "Vérifiez le statut du partage, puis modifiez-le en « Commentateur » uniquement si demandé.",
+        "Expliquez à un camarade pourquoi « Éditeur » doit être réservé aux collaborateurs autorisés."
+      ]
+    },
+    {
+      "id": "ressources",
+      "title": "Récupérer ses ressources",
+      "steps": [
+        "Dans Gmail, rédigez à votre enseignant un message demandant les liens de deux cours ou applications déjà abordés.",
+        "Ouvrez le dossier « Ressources de cours » dans votre Drive.",
+        "Créez un document Docs nommé « Mes liens de révision ».",
+        "Insérez au moins deux liens reçus avec un titre et une courte description pour chacun.",
+        "Testez les liens, puis retrouvez ce document depuis la recherche Drive."
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "Docs : rédiger un compte rendu",
+      "steps": [
+        "Dans le dossier « {subject} », créez un Google Docs « Compte rendu - activité numérique ».",
+        "Rédigez un titre et trois phrases : travail réalisé, outil utilisé, difficulté rencontrée.",
+        "Mettez le titre en gras et ajoutez une liste de deux apprentissages.",
+        "Insérez le lien d’une application ou d’un cours étudié.",
+        "Partagez le document en mode Lecteur avec l’adresse pédagogique."
+      ]
+    },
+    {
+      "id": "sheets",
+      "title": "Sheets : inventaire professionnel",
+      "steps": [
+        "Dans « {subject} », créez une feuille Google Sheets intitulée « Inventaire - exercice ».",
+        "Créez quatre colonnes : Produit, Quantité, Prix unitaire (€), Valeur du stock (€).",
+        "Saisissez cinq produits fictifs adaptés à votre classe.",
+        "Dans D2, saisissez =B2*C2 puis reproduisez le calcul pour les autres produits.",
+        "Ajoutez une ligne Total et utilisez SOMME pour calculer la valeur totale."
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Forms : enquête de satisfaction",
+      "steps": [
+        "Ouvrez Google Forms et créez « Satisfaction client - exercice ».",
+        "Ajoutez trois questions maximum : satisfaction générale, critère le plus important, proposition d’amélioration.",
+        "Utilisez au moins deux types de questions (choix multiples et réponse courte).",
+        "Testez le formulaire en mode aperçu ; vérifiez ce que voit un répondant.",
+        "Partagez le lien de réponse avec un camarade et consultez les réponses reçues."
+      ]
+    },
+    {
+      "id": "slides",
+      "title": "Slides : présenter un projet",
+      "steps": [
+        "Créez « Présentation de mon activité » dans le dossier de votre matière.",
+        "Diapositive 1 : titre et objectif du projet.",
+        "Diapositive 2 : trois informations sur un inventaire, une action commerciale ou une mission de sécurité.",
+        "Diapositive 3 : résultats et ce que vous avez appris.",
+        "Présentez les trois diapositives en mode diaporama puis partagez-les en mode Lecteur."
+      ]
+    },
+    {
+      "id": "agenda",
+      "title": "Agenda : planifier son travail",
+      "steps": [
+        "Ouvrez Google Agenda et passez en vue Semaine.",
+        "Créez un événement fictif « Révision Workspace Quest » de 20 minutes à une date future.",
+        "Ajoutez une description précisant le cours ou le document à réviser.",
+        "Retrouvez cet événement dans votre agenda, puis modifiez sa durée."
+      ]
+    },
+    {
+      "id": "final",
+      "title": "Défi final : autonome et collaboratif",
+      "steps": [
+        "Choisissez une situation : commerce, RH/sécurité ou révisions scolaires.",
+        "Expliquez par écrit pourquoi vous avez choisi Docs, Sheets, Forms ou Slides.",
+        "Produisez un document correspondant à la situation et placez-le dans le bon dossier Drive.",
+        "Ajoutez le lien de votre production dans « Mes liens de révision » ou un document récapitulatif.",
+        "Partagez le livrable en mode Lecteur avec l’adresse pédagogique autorisée ; vérifiez l’accès."
+      ]
+    },
+    {
+      "id": "lexique",
+      "title": "Lexique et défis numériques",
+      "steps": [
+        "Ouvrez cinq définitions du lexique.",
+        "Distinguez un fichier d’un dossier et un lien d’une pièce jointe.",
+        "Retrouvez les équivalences Word/Docs, Excel/Sheets et PowerPoint/Slides.",
+        "Répondez au quiz pour appliquer ces connaissances à une situation réelle."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "m": "gmail",
+      "q": "Vous demandez des ressources à votre enseignant. Quelle démarche est la plus professionnelle ?",
+      "o": [
+        "Envoyer un message sans objet, avec seulement « les liens svp »",
+        "Envoyer un e-mail avec objet précis, formule de politesse et cours demandés",
+        "Publier sa demande dans un document Drive public",
+        "Créer un événement Agenda sans inviter l’enseignant"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Un e-mail clair précise son objet, les ressources demandées et l’identité de l’expéditeur."
+    },
+    {
+      "m": "gmail",
+      "q": "Pourquoi vaut-il mieux utiliser un compte scolaire déjà fourni, lorsqu’il convient à l’activité ?",
+      "o": [
+        "Parce qu’il permet toujours de partager sans aucune limite",
+        "Parce qu’il respecte généralement l’organisation et les règles définies par l’établissement",
+        "Parce qu’il supprime le besoin d’identifier son destinataire",
+        "Parce qu’il rend tous les fichiers accessibles à tout le monde"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Un établissement peut appliquer des règles de sécurité et de partage adaptées aux élèves."
+    },
+    {
+      "m": "outils",
+      "q": "Une entreprise veut comparer les ventes par semaine et calculer automatiquement des totaux. Quel outil choisir ?",
+      "o": [
+        "Google Sheets",
+        "Google Docs",
+        "Google Slides",
+        "Google Forms"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Un tableur structure les données et calcule les résultats ; Sheets est le tableur de Google."
+    },
+    {
+      "m": "outils",
+      "q": "Quels couples d’outils répondent à des usages globalement comparables ? (Plusieurs réponses)",
+      "o": [
+        "Microsoft Word et Google Docs",
+        "Microsoft Excel et Google Sheets",
+        "Microsoft PowerPoint et Google Forms",
+        "Microsoft Forms et Google Forms"
+      ],
+      "a": [
+        0,
+        1,
+        3
+      ],
+      "why": "Word/Docs sont des traitements de texte, Excel/Sheets des tableurs, Microsoft Forms/Google Forms des questionnaires. PowerPoint correspond plutôt à Slides."
+    },
+    {
+      "m": "drive",
+      "q": "Vous devez retrouver vos révisions du trimestre précédent. Quelle organisation est la plus efficace ?",
+      "o": [
+        "Un dossier annuel puis des sous-dossiers par matière, avec des noms précis",
+        "Tous les liens placés dans un fichier intitulé « Sans titre »",
+        "Un dossier différent pour chaque fois que vous ouvrez Drive",
+        "Tous les documents enregistrés uniquement dans les téléchargements du navigateur"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Une arborescence stable et des noms explicites facilitent le rangement et la recherche."
+    },
+    {
+      "m": "drive",
+      "q": "Vous recevez un cours partagé par lien. Que faut-il faire pour le retrouver facilement ?",
+      "o": [
+        "Le copier dans un document de ressources rangé dans le bon dossier",
+        "Changer le mot de passe du compte Google",
+        "Créer une nouvelle adresse e-mail dédiée à ce lien",
+        "Le coller uniquement dans la barre de recherche du navigateur"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Conserver un lien nommé dans un document Docs classé dans Drive permet de le retrouver plus tard."
+    },
+    {
+      "m": "partage",
+      "q": "Votre camarade doit uniquement lire votre compte rendu, sans modifier le texte. Quel droit lui donner ?",
+      "o": [
+        "Éditeur",
+        "Lecteur",
+        "Propriétaire",
+        "Commentateur"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Lecteur autorise la consultation. Commentateur ajoute la possibilité d’écrire des commentaires ; Éditeur permet des modifications."
+    },
+    {
+      "m": "partage",
+      "q": "Votre équipe Hanout doit corriger ensemble une fiche de produits. Quel réglage est le plus adapté ?",
+      "o": [
+        "Accès public en mode Éditeur pour toute personne disposant du lien",
+        "Inviter uniquement les membres de l’équipe en mode Éditeur",
+        "Inviter toute la classe en mode Lecteur",
+        "Envoyer une capture d’écran sans accès au document"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Pour une collaboration réelle, les contributeurs identifiés ont besoin d’un accès Éditeur, sans rendre le document public."
+    },
+    {
+      "m": "partage",
+      "q": "Quelles affirmations sont justes sur le partage Drive ? (Plusieurs réponses)",
+      "o": [
+        "Le rôle Lecteur empêche généralement la modification du contenu",
+        "Un Éditeur autorisé peut modifier le contenu",
+        "Le propriétaire est un niveau ordinaire du menu Lecteur/Commentateur/Éditeur",
+        "Partager un dossier peut donner accès aux fichiers qu’il contient"
+      ],
+      "a": [
+        0,
+        1,
+        3
+      ],
+      "why": "Le propriétaire est un statut distinct ; les droits des dossiers s’appliquent aux contenus concernés."
+    },
+    {
+      "m": "ressources",
+      "q": "Pour vos révisions, quelle méthode permet de conserver cinq liens de cours avec une description ?",
+      "o": [
+        "Un Docs « Mes liens de révision » rangé dans votre dossier de matière",
+        "Cinq invitations Agenda envoyées à vos camarades",
+        "Cinq fichiers Sheets différents, chacun sans nom",
+        "Un formulaire Forms demandant les cinq liens à des inconnus"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Docs permet de présenter clairement chaque ressource et son lien, Drive de classer le document."
+    },
+    {
+      "m": "ressources",
+      "q": "Votre enseignant vous transmet un lien vers un cours. Que ne faut-il pas supposer ?",
+      "o": [
+        "Que le lien puisse être enregistré",
+        "Que vous êtes devenu propriétaire du document original",
+        "Que vous pourrez le consulter si vous disposez des droits",
+        "Que vous pouvez donner un titre au lien dans vos notes"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Recevoir un lien ne transfère pas la propriété du document. L’accès dépend des autorisations."
+    },
+    {
+      "m": "docs",
+      "q": "Après une visite d’entreprise, vous devez rédiger un compte rendu structuré. Quel outil privilégier ?",
+      "o": [
+        "Google Forms",
+        "Google Sheets",
+        "Google Docs",
+        "Google Agenda"
+      ],
+      "a": [
+        2
+      ],
+      "why": "Docs convient à une rédaction avec titres, paragraphes, listes et liens."
+    },
+    {
+      "m": "docs",
+      "q": "Dans un compte rendu partagé, une camarade doit suggérer une modification sans toucher au texte. Quel accès est pertinent ?",
+      "o": [
+        "Lecteur, sans commentaires",
+        "Commentateur, pour proposer son retour",
+        "Propriétaire, pour prendre le contrôle du document",
+        "Éditeur anonyme avec lien public"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Le rôle Commentateur permet de faire un retour tout en limitant la modification directe."
+    },
+    {
+      "m": "sheets",
+      "q": "Dans un inventaire, chaque ligne correspond à un produit. Où faut-il placer les informations « quantité » et « prix » ?",
+      "o": [
+        "Dans deux colonnes distinctes du même tableau",
+        "Dans deux présentations Slides séparées",
+        "Dans le titre du fichier seulement",
+        "Dans les réponses privées d’un événement Agenda"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Les colonnes permettent de structurer des attributs de chaque produit ; les lignes identifient les produits."
+    },
+    {
+      "m": "sheets",
+      "q": "Pour calculer la valeur du stock, vous avez une quantité en B2 et un prix en C2. Quelle formule saisir ?",
+      "o": [
+        "=B2+C2",
+        "=B2*C2",
+        "=B2/C2",
+        "=B2-C2"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Valeur du stock = quantité × prix unitaire. La multiplication s’écrit avec * dans Sheets."
+    },
+    {
+      "m": "forms",
+      "q": "Une entreprise veut connaître les goûts de 60 clients et centraliser leurs réponses. Que choisir ?",
+      "o": [
+        "Docs : demander un paragraphe à chaque client",
+        "Sheets : partager un tableau modifiable par tous les clients",
+        "Forms : diffuser un questionnaire structuré",
+        "Slides : demander aux clients d’annoter les diapositives"
+      ],
+      "a": [
+        2
+      ],
+      "why": "Forms collecte des réponses structurées sans donner à tous les répondants l’accès à un document de travail."
+    },
+    {
+      "m": "forms",
+      "q": "Quels usages conviennent à Google Forms ? (Plusieurs réponses)",
+      "o": [
+        "Sonder les salariés sur les créneaux de formation",
+        "Recueillir les réponses à une enquête client",
+        "Remplacer un tableur complexe de suivi de paie",
+        "Créer un questionnaire de connaissances"
+      ],
+      "a": [
+        0,
+        1,
+        3
+      ],
+      "why": "Forms est adapté à la collecte de réponses, mais pas à un logiciel spécialisé de paie."
+    },
+    {
+      "m": "slides",
+      "q": "Vous présentez à l’oral une nouvelle offre commerciale. Quel outil convient pour projeter vos idées ?",
+      "o": [
+        "Google Slides",
+        "Google Forms",
+        "Google Agenda",
+        "Google Drive seulement"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Slides permet de structurer un diaporama en idées et visuels pour accompagner l’oral."
+    },
+    {
+      "m": "slides",
+      "q": "Quelle présentation est la plus facile à suivre lors d’un exposé de trois minutes ?",
+      "o": [
+        "Trois diapositives avec un titre clair et quelques informations pertinentes",
+        "Une seule diapositive contenant 1 000 mots",
+        "Dix diapositives sans titre et remplies de chiffres illisibles",
+        "Trois diapositives dont le texte est remplacé par des liens incompréhensibles"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Un support synthétique aide l’auditoire à suivre le propos sans lire un long texte."
+    },
+    {
+      "m": "agenda",
+      "q": "Le responsable RH doit inviter son équipe à une réunion de 20 minutes. Quel outil utiliser ?",
+      "o": [
+        "Google Docs",
+        "Google Agenda",
+        "Google Sheets",
+        "Google Forms"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Agenda permet de créer un événement daté et d’inviter les participants."
+    },
+    {
+      "m": "agenda",
+      "q": "Quel élément rend un événement de réunion plus utile pour les participants ?",
+      "o": [
+        "Un titre vague et aucune heure",
+        "Un titre clair, une date, une heure et une description",
+        "Un fichier de stock en pièce jointe sans invitation",
+        "Un formulaire de satisfaction sans date de réunion"
+      ],
+      "a": [
+        1
+      ],
+      "why": "Une invitation explicite permet à chacun de savoir quand et pourquoi participer."
+    },
+    {
+      "m": "final",
+      "q": "Vous devez suivre du matériel, demander des avis et présenter un bilan. Quel enchaînement d’outils est le plus pertinent ?",
+      "o": [
+        "Sheets pour le matériel, Forms pour les avis, Slides pour le bilan",
+        "Slides pour le matériel, Docs pour les avis, Agenda pour le bilan",
+        "Forms pour le matériel, Drive pour les avis, Gmail pour les graphiques",
+        "Docs pour le matériel, Agenda pour les avis, Forms pour le bilan oral"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Le choix dépend de la finalité : tableau de suivi, questionnaire de collecte, support de présentation."
+    },
+    {
+      "m": "final",
+      "q": "Un document doit être relu par un enseignant, sans pouvoir être modifié par lui. Quel partage est adapté ?",
+      "o": [
+        "Inviter son adresse en mode Commentateur",
+        "Publier un lien Éditeur sur un réseau social",
+        "Transférer la propriété du fichier",
+        "Ne partager aucun accès et demander une correction"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Commentateur donne accès à la lecture et aux annotations sans modification directe du texte."
+    },
+    {
+      "m": "lexique",
+      "q": "Dans un tableur, que désigne la cellule C4 ?",
+      "o": [
+        "Le quatrième fichier du dossier C",
+        "L’intersection de la colonne C et de la ligne 4",
+        "La quatrième diapositive de la présentation C",
+        "Le quatrième commentaire du document C"
+      ],
+      "a": [
+        1
+      ],
+      "why": "La référence d’une cellule combine la lettre de colonne et le numéro de ligne."
+    },
+    {
+      "m": "lexique",
+      "q": "Dans quel cas parle-t-on d’un lien hypertexte plutôt que d’une pièce jointe ?",
+      "o": [
+        "Quand un texte cliquable ouvre une application de révision",
+        "Quand un fichier PDF est ajouté au message Gmail",
+        "Quand un tableur est téléchargé sur l’ordinateur",
+        "Quand une image est insérée dans une présentation"
+      ],
+      "a": [
+        0
+      ],
+      "why": "Un lien ouvre une ressource ; une pièce jointe correspond à un fichier attaché à un message."
+    },
+    {
+      "m": "lexique",
+      "q": "Quels énoncés relèvent de la collaboration numérique ? (Plusieurs réponses)",
+      "o": [
+        "Attribuer un rôle Éditeur aux contributeurs d’un document",
+        "Laisser un commentaire sur un fichier partagé",
+        "Conserver tous les mots de passe de l’équipe dans un document partagé",
+        "Organiser les ressources communes dans un dossier à accès limité"
+      ],
+      "a": [
+        0,
+        1,
+        3
+      ],
+      "why": "Collaborer implique des droits adaptés et une organisation commune ; les mots de passe ne doivent jamais être partagés dans un document."
+    }
+  ]
+}

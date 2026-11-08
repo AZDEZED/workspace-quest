@@ -1,40 +1,30 @@
-# Workspace Quest V1 — AZ Consulting Pédagogie
+# Workspace Quest V2 — AZ Consulting Pédagogie
 
-Application pédagogique autonome (`index.html`) pour les classes 2EPC, 1MCVA, 2nde Pro et BTS 1 MOS.
+Application pédagogique pour 2EPC, 1MCVA, 2nde Pro et BTS 1 MOS.
 
-## Pour tester
+## Fonctions actives
 
-Ouvrir `index.html` dans un navigateur moderne sur ordinateur. Aucun serveur ni installation n'est nécessaire pour les quiz et les cours. Les liens Google ouvrent les services externes et demandent un compte compatible.
+- 12 modules, cours en français, missions guidées, 26 questions corrigées et 24 définitions.
+- Sauvegarde locale des quiz, étapes et points. Export CSV individuel.
+- Quatre Google Forms de validation : 6, 7, 8 et 5 questions.
+- Liens de validation sur le tableau de bord et dans les modules concernés.
+- Préremplissage du nom, du prénom et de la classe depuis le profil.
+- Score et explications visibles dans Forms après l’envoi.
+- Résultats des Forms centralisés automatiquement dans un classeur enseignant privé.
 
-## Ce qui fonctionne dans la V1
+## Limites actuelles
 
-- 12 modules indépendants (Gmail, outils, Drive, partage, ressources, Docs, Sheets, Forms, Slides, Agenda, défi final, lexique).
-- Cours théoriques en français, guides Google officiels, missions pratiques à cocher.
-- 26 questions QCU/QCM avec 4 propositions, explications, indices, points non répétables.
-- 24 définitions de vocabulaire.
-- Sélection de classe et arborescence adaptée.
-- Sauvegarde locale des étapes, réponses et points ; export CSV individuel.
-- Configuration locale des adresses enseignant/Hanout et ressources.
+Les connexions, la progression locale et le temps actif ne sont pas encore transmis automatiquement. Le service Apps Script prévu pour cette fonction n’est pas déployé, dans l’attente d’une autorisation explicite pour son point de réception public. `index.html` charge uniquement `validations.js`. Le fichier `tracking.js` n’est pas utilisé.
 
-## Limites à connaître
+Les productions Drive et les cases cochées restent déclaratives. Le suivi des résultats Forms repose sur le nom, le prénom et la classe saisis : l’identité n’est pas authentifiée. La progression locale ne se synchronise pas entre appareils.
 
-- Les manipulations Drive/Docs/etc. sont guidées mais non vérifiées automatiquement : les cases et missions sont déclaratives.
-- Les Google Forms de validation ne sont pas encore créés ni liés à l'application ; les notes ne sont pas envoyées par e-mail automatiquement.
-- L'enseignant ne dispose pas encore d'un tableau de bord centralisé. Chaque élève peut exporter son CSV.
-- La progression n'est pas synchronisée entre appareils ni entre comptes.
-- Les adresses institutionnelles et les liens de cours doivent être ajoutés plus tard.
-- Aucun mot de passe ne doit être saisi ou partagé dans l'application.
+Les réponses fictives de vérification sont identifiées par TEST TECHNIQUE / Fictif. Elles sont distinctes des données des élèves.
 
-## Déploiement GitHub Pages
+## Validation effectuée
 
-1. Créer un dépôt **public distinct** intitulé `workspace-quest` dans le compte GitHub **AZDEZED**.
-2. Ajouter `index.html` à la racine, sur `main`.
-3. Dans Settings → Pages → Build and deployment, choisir Deploy from a branch puis `main` et `/ (root)`.
-4. Vérifier l'URL annoncée par GitHub Pages, puis tester les modules et les liens depuis ordinateur et téléphone.
+Les quatre liens répondants ont été ouverts et testés par remise fictive. Scores reçus dans le tableau privé : 6/6, 6/7 (une erreur volontaire), 8/8 et 5/5. Le corrigé visible de la deuxième validation a été contrôlé.
 
-Ne pas recopier les données personnelles ni l'historique local des élèves dans un dépôt public.
+Tests locaux de logique du service : doublons, QCU/QCM, temps par séance, checklist, identité, neutralisation des formules et synthèse.
 
-## Références officielles
-- https://support.google.com/a/users/answer/9389764?hl=fr
-- https://support.google.com/drive/answer/7166529?hl=fr
-- https://support.google.com/docs/answer/7032287?hl=fr
+Le suivi de connexion et de temps restera à tester de bout en bout après son autorisation et son déploiement. Voir DEPLOYMENT.md.
+
