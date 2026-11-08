@@ -1,11 +1,14 @@
 # Workspace Quest V2 : validation et suivi
 
-## État de la version de travail
+## État réel au 8 novembre 2026
 
-Le classeur privé de suivi a été créé et vérifié. Le projet Apps Script a été créé et son code enregistré.
-L’installation des formulaires attend l’autorisation Google du propriétaire du projet. Google affiche l’avertissement « application non validée » pour ce nouveau script.
-Les quatre Google Forms ne sont donc pas encore créés. Le service n’est pas encore déployé et `tracking.js` conserve volontairement `__DEPLOYMENT_URL__`.
-Ne pas fusionner cette branche sur `main` avant d’avoir remplacé cette valeur et validé une remise réelle.
+Les quatre Google Forms sont créés, publiés et reliés par déclencheurs au classeur privé. Les scores, les bonnes réponses et les explications sont publiés immédiatement après l’envoi.
+
+Quatre remises fictives ont été reçues dans le classeur : 6/6, 6/7 (une erreur volontaire), 8/8 et 5/5. Ces réponses portent le nom TEST TECHNIQUE et le prénom Fictif. Le corrigé visible du deuxième formulaire a été contrôlé.
+
+L’application charge `validations.js`, qui affiche les liens Forms et préremplit le nom, le prénom et la classe. `tracking.js` n’est pas chargé et conserve `__DEPLOYMENT_URL__`.
+
+La publication du service Apps Script avec l’audience « Tout le monde » a été refusée par le contrôle automatique : une autorisation explicite distincte reste nécessaire pour ce point de réception public. Les connexions, le temps actif et la progression locale ne sont donc pas envoyés automatiquement. Aucun tableau d’élèves n’est public.
 
 ## Contenu
 
@@ -21,11 +24,11 @@ Ne pas fusionner cette branche sur `main` avant d’avoir remplacé cette valeur
 
 ## Mise en service
 
-1. Dans le projet Apps Script dédié, autoriser les services Forms, Sheets et les déclencheurs nécessaires à `installer` après examen de l’avertissement Google.
+1. Les permissions Forms, Sheets et déclencheurs ont été accordées et `installer` a été exécuté avec succès.
 2. Exécuter `installer`. Contrôler les quatre Forms et les liens dans l’onglet Ressources. Ne pas rendre public le classeur.
 3. Dans les paramètres de chaque Forms, vérifier le mode questionnaire, l’accès répondant sans connexion imposée et l’affichage des points et corrections.
 4. Déployer le projet en application Web exécutée par son propriétaire et accessible aux répondants. Ce service ne doit jamais proposer une lecture des données personnelles.
-5. Remplacer `__DEPLOYMENT_URL__` dans `tracking.js` par l’URL `/exec` retournée par Google.
+5. Remplacer `__DEPLOYMENT_URL__` dans `tracking.js` par l’URL `/exec` retournée par Google. Remplacer ensuite le chargement de `validations.js` par celui de `tracking.js` dans index.html, après avoir conservé le préremplissage de la classe corrigé.
 6. Tester sur une version de prévisualisation : profil fictif, QCU juste/faux, QCM incomplet/complet, accusés de réception, retour en ligne après coupure, points non doublés et synthèse privée.
 7. Remettre au moins une validation depuis son lien répondant. Vérifier le score natif et la réception du déclencheur dans Validations et Suivi. Effacer uniquement les données fictives de test.
 8. Vérifier l’affichage sur petit écran. Fusionner uniquement après ces contrôles, puis vérifier GitHub Pages.

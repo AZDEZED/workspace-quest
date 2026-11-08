@@ -40,7 +40,16 @@
   }catch(_){status='Envoi non confirmé. Vos données restent sur cet appareil. Réessayez avec le bouton ci-dessous.';retryTimer=setTimeout(flush,60000);}
   finally{sending=false;paint();}
  }
- function formUrl(f){let u=f.prefill||f.url;if(validProfile())u=u.replace('__NOM__',encodeURIComponent(state.profile.surname)).replace('__PRENOM__',encodeURIComponent(state.profile.name)).replace('__CLASSE__',encodeURIComponent(CLASSES[state.profile.classe].label));else u=f.url;return u;}
+ function formUrl(f){
+  if(!validProfile())return f.url;
+  const u=new URL(f.prefill||f.url);
+  for(const [k,v] of u.searchParams){
+   if(v==='__NOM__')u.searchParams.set(k,state.profile.surname);
+   else if(v==='__PRENOM__')u.searchParams.set(k,state.profile.name);
+   else if(v==='__CLASSE__'||v===CLASSES['2epc'].label)u.searchParams.set(k,CLASSES[state.profile.classe].label);
+  }
+  return u.href;
+ }
  function enhance(){
   const panel=document.createElement('section');panel.className='panel';panel.id='wq-panel';
   panel.innerHTML='<h2>Validation et suivi</h2><p id="wq-status" role="status"></p><button class="btn secondary" id="wq-sync">Renvoyer les données en attente</button><p class="notice">Le suivi enregistre votre nom, votre classe, les dates, les réponses et une estimation du temps actif pour votre enseignant. Votre identité est déclarative. Les manipulations cochées restent à vérifier sur vos productions.</p>';
